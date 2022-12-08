@@ -1,6 +1,6 @@
-## This is the repo for Mel_BiLSTM model
+# This is the repo for Mel_BiLSTM model
 
-# Components:
+## Components:
 
 - Model
 - Training Script
