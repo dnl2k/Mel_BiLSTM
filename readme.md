@@ -6,7 +6,7 @@
 Figure 1: Overview of the framework
 <p>
 
-# Network Architecture
+## Network Architecture
 
 Adopted and modified the Mel_BiGRU framework proposed by [1], the Mel_BiLSTM network architecture can be seen in Fig. 
   
@@ -19,6 +19,6 @@ Adopted and modified the Mel_BiGRU framework proposed by [1], the Mel_BiLSTM net
 - Demo
 
 
-# Reference
+## Reference
 
 [1] A. Mesaros, T. Heittola, T. Virtanen, and M. D. Plumbley, “Sound event detection: A tutorial,” IEEE Signal Processing Magazine, vol. 38, no. 5, pp. 67–83, 2021. 
