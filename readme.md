@@ -5,6 +5,10 @@
 <p align="center">
 Figure 1: Overview of the framework
 <p>
+
+# Network Architecture
+
+Adopted and modified the Mel_BiGRU framework proposed by [1], the Mel_BiLSTM network architecture can be seen in Fig. 
   
 ## Components:
 
