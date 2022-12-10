@@ -15,3 +15,6 @@ Figure 1: Overview of the framework
 - Demo
 
 
+# Reference
+
+[1] A. Mesaros, T. Heittola, T. Virtanen, and M. D. Plumbley, “Sound event detection: A tutorial,” IEEE Signal Processing Magazine, vol. 38, no. 5, pp. 67–83, 2021. 
