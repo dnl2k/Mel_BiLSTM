@@ -130,7 +130,7 @@ More field experiments need to be conducted to evaluate the network performance.
   
 ## Appendix
   
-### 1. The classes used to train the Mel_BiLSTM model
+### A1. The classes used to train the Mel_BiLSTM model
   
 ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Bird_B_Sample.png)
 
