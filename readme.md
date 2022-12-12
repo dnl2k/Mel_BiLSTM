@@ -120,7 +120,7 @@ Figure 14: Localization results for speaker's location 6. 2 matched windows were
 
 ## Future work
 
-New spatial localization algorithm needs to be developed.
+Improved spatial localization algorithm needs to be developed.
 
 More field experiments need to be conducted to evaluate the network performance. 
 
