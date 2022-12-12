@@ -19,6 +19,7 @@ Figure 2: Data Preprocessing. The red line is the label with the high value corr
 
   First, the raw waveform will be convert into Mel features using the periodic Hann window with the window size of 800, the overlap length of 400, the FFT length of 1600, the number of frequency bands of 128, the frequency range between 500 Hz and 4000 Hz. That frequency range was selected because the quail calls' signatures are commonly resided between 1000 Hz and 3200 Hz. The Mel features will have the shape of 128xT, where T is the number of timesteps. Second, the normalized Mel features are obtained by converting the Mel features to dB scale and normalized using mean and standard deviation (Fig. 2).  
 
+  More examples with different classes can be seen in Appendix A1.
 
 ### Network Architecture for Mel_BiLSTM
 
