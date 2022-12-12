@@ -66,7 +66,7 @@ Normalized cross-correlation are applied to the raw audio segments of microphone
 ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Localization_Example.png)
 
 <p align="center">
-Figure 7: Localization Example. The red x are the microphones' locations. To the right of the microphones' locations are the names of the microphones and the microphone numbers inside of the pairs of round brackets (first line) and the numbers of calls detected and used to localize the predicted location.  
+Figure 7: Localization Example. The red x are the microphones' locations. To the right of the microphones' locations are the names of the microphones and the microphone numbers inside of the pairs of round brackets (first line) and the numbers of calls detected and used to localize the predicted location (second line).  
 <p>
 
 Using the TDOA from Fig. 6, the localization result is shown on Fig. 7.
