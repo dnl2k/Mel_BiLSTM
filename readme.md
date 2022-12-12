@@ -126,3 +126,50 @@ More field experiments need to be conducted to evaluate the network performance.
 ## Reference
 
 [1] A. Mesaros, T. Heittola, T. Virtanen, and M. D. Plumbley, “Sound event detection: A tutorial,” IEEE Signal Processing Magazine, vol. 38, no. 5, pp. 67–83, 2021. 
+
+  
+## Appendix
+  
+### 1. The classes used to train the Mel_BiLSTM model
+  
+![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Bird_B_Sample.png)
+
+<p align="center">
+Figure A1_1: An example of Bird_B signature with STFT spectrogram (left) and normalized Mel features (right). Bird_B signature is commonly mistaken with quail signature.  
+<p>
+  
+![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Bird_C_Sample.png)
+
+<p align="center">
+Figure A1_2: An example of Bird_C signature with STFT spectrogram (left) and normalized Mel features (right). Bird_C signature is commonly mistaken with quail signature. 
+<p>
+  
+ ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Bird_D_Sample.png)
+
+<p align="center">
+Figure A1_3: An example of Bird_D signature with STFT spectrogram (left) and normalized Mel features (right). Bird_D signature is commonly mistaken with quail signature. 
+<p>
+  
+ ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Coyotes_Sample.png)
+
+<p align="center">
+Figure A1_4: An example of Coyotes signature with STFT spectrogram (left) and normalized Mel features (right). Coyotes signature is commonly mistaken with quail signature. 
+<p>
+  
+ ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Quail_A_Sample.png)
+
+<p align="center">
+Figure A1_5: An example of Quail_A signature with STFT spectrogram (left) and normalized Mel features (right). Detecting Quail_A signature is the main objective of the framework. 
+<p>
+  
+ ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Quail_B_Sample.png)
+
+<p align="center">
+Figure A1_6: An example of Quail_B signature with STFT spectrogram (left) and normalized Mel features (right). Detecting Quail_B signature is the secondary objective of the framework. 
+<p>
+  
+ ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Quail_C_Sample.png)
+
+<p align="center">
+Figure A1_7: An example of Quail_C signature with STFT spectrogram (left) and normalized Mel features (right). Detecting Quail_C signature is the secondary objective of the framework. 
+<p>
