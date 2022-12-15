@@ -66,7 +66,7 @@ Normalized cross-correlation are applied to the raw audio segments of microphone
 ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Localization_Example.png)
 
 <p align="center">
-Figure 7: Localization Example. The red x are the microphones' locations. To the right of the microphones' locations are the names of the microphones and the microphone numbers inside of the pairs of round brackets (first line) and the numbers of calls detected and used to localize the predicted location (second line).  
+Figure 7: Localization Example. The red x are the microphones' locations. The red dot is the microphone's location. The red circle centered around the red dot has the radius of 10 meters. The small blue circle is the localization result produced by the framework. To the right of the microphones' locations are the names of the microphones and the microphone numbers inside of the pairs of round brackets (first line) and the numbers of calls detected and used to localize the predicted location (second line, denotes with the magenta circles surround each microphone's symbol). 
 <p>
 
 Using the TDOA from Fig. 6, the localization result is shown on Fig. 7.
@@ -85,37 +85,37 @@ A microphone array was set up at Pitchfork study site on November 19th, 2022 (Fi
 ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Pitchfork_221119_1330.png)
 
 <p align="center">
-Figure 9: Localization results for speaker's location 1. 7 matched windows were generated from the network detections and 7 predicted locations were produced by the framework. 
+Figure 9: Localization results for speaker's location 1. The red x are the microphones' locations. The red dot is the microphone's location. The red circle centered around the red dot has the radius of 10 meters. The small blue circles are the localization results produced by the framework. To the right of the microphones' locations are the names of the microphones and the microphone numbers inside of the pairs of round brackets (first line) and the numbers of calls detected and used to localize the predicted location (second line, denotes with the magenta circles surround each microphone's symbol). 7 matched windows were generated from the network detections and 7 predicted locations were produced by the framework. 
 <p>
 
 ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Pitchfork_221119_1340.png)
 
 <p align="center">
-Figure 10: Localization results for speaker's location 2. 7 matched windows were generated from the network detections and 7 predicted locations were produced by the framework. The location with the note "Consistent time lags" indicates that the estimated TDOA values for that location was consistent with the TDOA values for other 6 locations and the spatial localization error was caused by the spatial localization algorithm.
+Figure 10: Localization results for speaker's location 2. The red x are the microphones' locations. The red dot is the microphone's location. The red circle centered around the red dot has the radius of 10 meters. The small blue circles are the localization results produced by the framework. To the right of the microphones' locations are the names of the microphones and the microphone numbers inside of the pairs of round brackets (first line) and the numbers of calls detected and used to localize the predicted location (second line, denotes with the magenta circles surround each microphone's symbol). 7 matched windows were generated from the network detections and 7 predicted locations were produced by the framework. The location with the note "Consistent time lags" indicates that the estimated TDOA values for that location was consistent with the TDOA values for other 6 locations and the spatial localization error was caused by the spatial localization algorithm.
 <p>
 
 ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Pitchfork_221119_1345.png)
 
 <p align="center">
-Figure 11: Localization results for speaker's location 3. 7 matched windows were generated from the network detections and 7 predicted locations were produced by the framework. 
+Figure 11: Localization results for speaker's location 3. The red x are the microphones' locations. The red dot is the microphone's location. The red circle centered around the red dot has the radius of 10 meters. The small blue circles are the localization results produced by the framework. To the right of the microphones' locations are the names of the microphones and the microphone numbers inside of the pairs of round brackets (first line) and the numbers of calls detected and used to localize the predicted location (second line, denotes with the magenta circles surround each microphone's symbol). 7 matched windows were generated from the network detections and 7 predicted locations were produced by the framework. 
 <p>
 
 ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Pitchfork_221119_1350.png)
 
 <p align="center">
-Figure 12: Localization results for speaker's location 4. 6 matched windows were generated from the network detections and 6 predicted locations were produced by the framework. 
+Figure 12: Localization results for speaker's location 4. The red x are the microphones' locations. The red dot is the microphone's location. The red circle centered around the red dot has the radius of 10 meters. The small blue circles are the localization results produced by the framework. To the right of the microphones' locations are the names of the microphones and the microphone numbers inside of the pairs of round brackets (first line) and the numbers of calls detected and used to localize the predicted location (second line, denotes with the magenta circles surround each microphone's symbol). 6 matched windows were generated from the network detections and 6 predicted locations were produced by the framework. 
 <p>
 
 ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Pitchfork_221119_1355.png)
 
 <p align="center">
-Figure 13: Localization results for speaker's location 5. 6 matched windows were generated from the network detections and 1 predicted locations were produced by the framework. This indicates a problem of the spatial localization algorithm with the quail outside of the array.
+Figure 13: Localization results for speaker's location 5. The red x are the microphones' locations. The red dot is the microphone's location. The red circle centered around the red dot has the radius of 10 meters. The small blue circles are the localization results produced by the framework. To the right of the microphones' locations are the names of the microphones and the microphone numbers inside of the pairs of round brackets (first line) and the numbers of calls detected and used to localize the predicted location (second line, denotes with the magenta circles surround each microphone's symbol). 6 matched windows were generated from the network detections and 1 predicted locations were produced by the framework. This indicates a problem of the spatial localization algorithm with the quail outside of the array.
 <p>
 
 ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Pitchfork_221119_1405.png)
 
 <p align="center">
-Figure 14: Localization results for speaker's location 6. 2 matched windows were generated from the network detections and 2 predicted locations were produced by the framework. 
+Figure 14: Localization results for speaker's location 6. The red x are the microphones' locations. The red dot is the microphone's location. The red circle centered around the red dot has the radius of 10 meters. The small blue circles are the localization results produced by the framework. To the right of the microphones' locations are the names of the microphones and the microphone numbers inside of the pairs of round brackets (first line) and the numbers of calls detected and used to localize the predicted location (second line, denotes with the magenta circles surround each microphone's symbol). 2 matched windows were generated from the network detections and 2 predicted locations were produced by the framework. 
 <p>
 
 ## Future work
