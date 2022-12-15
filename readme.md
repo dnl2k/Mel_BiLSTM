@@ -79,7 +79,7 @@ Using the TDOA from Fig. 6, the localization result is shown on Fig. 7.
 Figure 8: The satelline view of Pitchfork site. The yellow pins are the microphones' locations. The name and the microphone's number can be seen near each microphone's location.
 <p>
 
-A microphone array was set up at Pitchfork study site on November 19th, 2022 (Fig. 8). A speaker was placed on various locations on the study site. 8 quail calls are played for each location. The recordings of the experiment were used to generate the localization results shown on Fig. 9 to 14.
+A microphone array was set up at Pitchfork study site on November 19th, 2022 (Fig. 8). A speaker was placed on various locations on the study site. 8 quail calls are played for each speaker's location. The recordings of the experiment were used as input to the framework to generate the localization results shown on Fig. 9 to 14.
 
 
 ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Pitchfork_221119_1330.png)
@@ -91,7 +91,7 @@ Figure 9: Localization results for speaker's location 1. 7 matched windows were 
 ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Pitchfork_221119_1340.png)
 
 <p align="center">
-Figure 10: Localization results for speaker's location 2. 7 matched windows were generated from the network detections and 7 predicted locations were produced by the framework. The location with the note "Consistent time lags" indicates that the TDOA values for that location was consistent with the TDOA values for other 6 locations and the error was caused by the spatial localization algorithm.
+Figure 10: Localization results for speaker's location 2. 7 matched windows were generated from the network detections and 7 predicted locations were produced by the framework. The location with the note "Consistent time lags" indicates that the estimated TDOA values for that location was consistent with the TDOA values for other 6 locations and the spatial localization error was caused by the spatial localization algorithm.
 <p>
 
 ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Pitchfork_221119_1345.png)
