@@ -69,7 +69,7 @@ Normalized cross-correlation are applied to the raw audio segments of microphone
 Figure 7: Localization Example. The red x are the microphones' locations. The red dot is the microphone's location. The red circle centered around the red dot has the radius of 10 meters. The small blue circle is the localization result produced by the framework. To the right of the microphones' locations are the names of the microphones and the microphone numbers inside of the pairs of round brackets (first line) and the numbers of calls detected and used to localize the predicted location (second line, denotes with the magenta circles surround each microphone's symbol). 
 <p>
 
-Using the TDOA from Fig. 6, the localization result is shown on Fig. 7.
+Using the TDOA from Fig. 6, the localization result is shown on Fig. 7. Because microphones' locations 1, 3, 4, 6, 8 were used to find the TDOA values, a magenta circle was plotted with the center of each of those locations.
 
 ## Experiment Results
 
@@ -81,6 +81,7 @@ Figure 8: The satelline view of Pitchfork site. The yellow pins are the micropho
 
 A microphone array was set up at Pitchfork study site on November 19th, 2022 (Fig. 8). A speaker was placed on various locations on the study site. 8 quail calls are played for each speaker's location. The recordings of the experiment were used as input to the framework to generate the localization results shown on Fig. 9 to 14.
 
+The wind direction was SW during the experiment.
 
 ![alt text](https://github.com/dnl2k/Mel_BiLSTM/blob/main/Figures/Pitchfork_221119_1330.png)
 
@@ -124,6 +125,8 @@ Improved spatial localization algorithm needs to be developed.
 
 More field experiments need to be conducted to evaluate the network performance. 
 
+An algorithm to generate the microphone setup that maximizes the coverage area given a certain number of microphones and field conditions (vegetation, terrain, wind direction) can be developed.
+  
 ## Reference
 
 [1] A. Mesaros, T. Heittola, T. Virtanen, and M. D. Plumbley, “Sound event detection: A tutorial,” IEEE Signal Processing Magazine, vol. 38, no. 5, pp. 67–83, 2021. 
